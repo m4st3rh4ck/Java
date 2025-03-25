@@ -8,5 +8,12 @@ public class promedio
         double parcial3 = 8;
         double promedio = (parcial1 + parcial2 + parcial3) / 3;
         System.out.println("La calificacion final es: " + promedio);
+        if(promedio >= 6)
+        {
+            System.out.println("Aprodabo");
+        } else 
+            {
+            System.out.println("Reprobado");
+            }
     }
 }
